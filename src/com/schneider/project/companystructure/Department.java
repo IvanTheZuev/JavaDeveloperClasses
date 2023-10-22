@@ -1,6 +1,8 @@
 package com.schneider.project.companystructure;
 
-public class Director {
+public class Department {
+    private String name;
     private int numberOfEmployee;
-    private String department head;
+    private Department head;
+
 }

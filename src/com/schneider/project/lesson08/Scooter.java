@@ -1,6 +1,6 @@
 package com.schneider.project.lesson08;
 
-public class Scooter extends Bicycle{
+public class Scooter implements ChangeColor{
     boolean isElectric;
 
 
@@ -10,4 +10,13 @@ public class Scooter extends Bicycle{
     }
 
 
+    @Override
+    public void changeColor(String) {
+
+    }
+
+    @Override
+    public void recoverColor() {
+
+    }
 }
