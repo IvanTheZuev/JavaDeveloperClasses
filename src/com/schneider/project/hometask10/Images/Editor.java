@@ -1,7 +1,7 @@
 package com.schneider.project.hometask10.Images;
 
 public final class Editor implements Drawable {
-    private Drawable drawable;
+    private Gallery[] drawable;
 
     public Editor(Gallery[] drawable) {
         setDrawable(drawable);
